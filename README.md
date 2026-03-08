@@ -1,6 +1,6 @@
 # OpenFrame
 
-> **[Work in Progress]** This repository is a placeholder. Implementation coming soon.
+> ⚡ Active development. Protocol specification v0.1 is live.
 
 ---
 
