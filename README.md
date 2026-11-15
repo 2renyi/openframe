@@ -115,18 +115,21 @@ OpenFrame is most valuable where **device data is heterogeneous** and **AI must 
 - **Logistics and cold chain** — location + environment + asset state → supply chain events → AI exception handling
 - **Robotics / embodied AI** — sensor streams → world state representation → policy input
 - **Health monitoring** — physiological signals → clinical semantic events → AI-assisted assessment
+- **First-person lifelogging** — wearable camera + audio → semantic life events → AI memory (first concrete adopter: RAG Video, in development)
 
 ---
 
 ## Project Status
 
-🚧 **Pre-alpha — specification drafting in progress**
+🚧 **Pre-alpha — specification drafting**
+
+Conceived and first drafted in March 2026; paused for eight months and **restarted in November 2026**, with RAG Video (first-person lifelogging) as the first concrete adopter scenario driving the spec forward.
 
 - [x] Concept and architecture
 - [x] L1 Observation schema (v0.1 draft)
-- [x] L2 Semantic object model (v0.1 draft)  
-- [ ] L3 Representation contract spec
-- [ ] Domain profiles (industrial / building / health)
+- [x] L2 Semantic object model (v0.1 draft)
+- [ ] L3 Representation contract spec (drafting)
+- [ ] Domain profiles (industrial / building / health / lifelogging)
 - [ ] Reference implementation
 - [ ] Validator tooling
 - [ ] SDK (Python)
@@ -138,9 +141,9 @@ OpenFrame is most valuable where **device data is heterogeneous** and **AI must 
 Full specification documents are in [`/spec`](./spec/):
 
 - [`spec/ARCHITECTURE.md`](./spec/ARCHITECTURE.md) — layer architecture and design principles
-- [`spec/L1-observation.md`](./spec/L1-observation.md) — observation schema
 - [`spec/L2-semantic.md`](./spec/L2-semantic.md) — semantic object model
-- [`spec/L3-representation.md`](./spec/L3-representation.md) — representation contract
+- `spec/L1-observation.md` — observation schema (drafting; not yet in repo)
+- `spec/L3-representation.md` — representation contract (drafting; not yet in repo)
 
 ---
 
